@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace FileVIew1
+namespace FileView1
 {
     public class RouteConfig
     {

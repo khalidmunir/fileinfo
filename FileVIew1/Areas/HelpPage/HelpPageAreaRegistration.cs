@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace FileVIew1.Areas.HelpPage
+namespace FileView1.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

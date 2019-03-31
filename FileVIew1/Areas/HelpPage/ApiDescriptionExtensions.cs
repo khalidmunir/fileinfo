@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace FileVIew1.Areas.HelpPage
+namespace FileView1.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {
