@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using FileVIew1.Areas.HelpPage.ModelDescriptions;
-using FileVIew1.Areas.HelpPage.Models;
+using FileView1.Areas.HelpPage.ModelDescriptions;
+using FileView1.Areas.HelpPage.Models;
 
-namespace FileVIew1.Areas.HelpPage.Controllers
+namespace FileView1.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using FileVIew1.Areas.HelpPage.ModelDescriptions;
-using FileVIew1.Areas.HelpPage.Models;
+using FileView1.Areas.HelpPage.ModelDescriptions;
+using FileView1.Areas.HelpPage.Models;
 
-namespace FileVIew1.Areas.HelpPage
+namespace FileView1.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

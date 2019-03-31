@@ -1,6 +1,6 @@
 using System;
 
-namespace FileVIew1.Areas.HelpPage.ModelDescriptions
+namespace FileView1.Areas.HelpPage.ModelDescriptions
 {
     public class ParameterAnnotation
     {
