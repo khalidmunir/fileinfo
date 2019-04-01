@@ -44,28 +44,28 @@ namespace FileView1.Controllers
                 };
                 FileInfo fileRow2 = new FileInfo
                 {
-                    FileID = 1,
-                    FileName = "turpis sed.xls",
+                   // FileID = 2,
+                    FileName = "wonderwoman.png",
                     FilePath = "Audit/Corston/External",
                     Volume = "UK_LondonDC",
-                    Size = 105,
+                    Size = 8326,
                     Ctime = "03/06/2017 01:57",
-                    Mtime = "15/06/2017 01:57",
-                    Atime = "01/07/2017 01:57",
-                    MD5 = "0x398c343ecc07daa68710ee7319bd0750",
-                    SecurityClassification = "Secret",
+                    Mtime = "23/07/2018 11:15",
+                    Atime = "03/11/2018 11:15",
+                    MD5 = "0x17a5bcb3adbe7623177175fe59fd7810",
+                    SecurityClassification = "ClassifiedSen",
                     BusinessClassification = "Audit",
-                    Extension = "xls",
-                    MimeType = "application/x-excel",
+                    Extension = "png",
+                    MimeType = "image/png",
                     EmployeeNo = 1
                 };
                 FileInfo fileRow3 = new FileInfo
                 {
                     FileID = 1,
-                    FileName = "turpis sed.xls",
+                    FileName = "fred ed.xls",
                     FilePath = "Audit/Corston/External",
                     Volume = "UK_LondonDC",
-                    Size = 105,
+                    Size = 9967805,
                     Ctime = "03/06/2017 01:57",
                     Mtime = "15/06/2017 01:57",
                     Atime = "01/07/2017 01:57",
@@ -79,10 +79,10 @@ namespace FileView1.Controllers
                 FileInfo fileRow4 = new FileInfo
                 {
                     FileID = 1,
-                    FileName = "turpis sed.xls",
+                    FileName = "superman.xls",
                     FilePath = "Audit/Corston/External",
                     Volume = "UK_LondonDC",
-                    Size = 105,
+                    Size = 1133405,
                     Ctime = "03/06/2017 01:57",
                     Mtime = "15/06/2017 01:57",
                     Atime = "01/07/2017 01:57",
@@ -96,7 +96,7 @@ namespace FileView1.Controllers
                 FileInfo fileRow5 = new FileInfo
                 {
                     FileID = 1,
-                    FileName = "turpis sed.xls",
+                    FileName = "flash gordon.xls",
                     FilePath = "Audit/Corston/External",
                     Volume = "UK_LondonDC",
                     Size = 105,
@@ -106,10 +106,12 @@ namespace FileView1.Controllers
                     MD5 = "0x398c343ecc07daa68710ee7319bd0750",
                     SecurityClassification = "Secret",
                     BusinessClassification = "Audit",
-                    Extension = "xls",
-                    MimeType = "application/x-excel",
+                    Extension = "ppt",
+                    MimeType = "application/x-ppt",
                     EmployeeNo = 1
                 };
+
+
 
                 db.FileInfoDBTable.Add(fileRow1);
                 db.FileInfoDBTable.Add(fileRow2);
@@ -119,7 +121,7 @@ namespace FileView1.Controllers
 
                 db.SaveChanges();
             }
-            }
+            
         }
 
     }
