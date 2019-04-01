@@ -172,6 +172,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904010006333_db.cs" />
+    <Compile Include="Migrations\201904010006333_db.Designer.cs">
+      <DependentUpon>201904010006333_db.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\FileInfo.cs" />
     <Compile Include="Models\FileViewDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -231,7 +236,11 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201904010006333_db.resx">
+      <DependentUpon>201904010006333_db.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>

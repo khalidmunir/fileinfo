@@ -22,7 +22,6 @@ namespace FileView1.Models
         public string BusinessClassification { get; set; }
         public string Extension { get; set; }
         public string MimeType { get; set; }
-
         public int EmployeeNo { get; set; }
     }
 }
